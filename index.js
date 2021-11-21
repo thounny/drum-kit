@@ -19,10 +19,11 @@ for (var i = 0; i < numberOfDrumButtons; i++) {
 
 document.addEventListener("keydown", function(event) {
 
-    drumSound(event.key);
+    drumSound(event.key); // which key is pressed
 
 });
 
+// plays sound according to key pressed
 function drumSound(key) {
 
     switch (key) {
